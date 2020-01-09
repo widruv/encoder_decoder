@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="common.js" type="text/javascript"></script>
+</head>
+<body>
+    <div>
+        <textarea id="target" autofocus required form="encoder_decoder" cols="30", rows="20"></textarea>
+        <div>
+            <form id="encoder_decoder">
+                <select id="type_select">
+                    <option value="url">url</option>
+                    <option value="base64">base64</option>
+                    <option value="html">html</option>
+                    <option value="hex">hex</option>
+                </select>
+                <input id="encode" type="button" value="encode"></input>
+                <input id="decode" type="button" value="decode"></input>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
