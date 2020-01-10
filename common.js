@@ -48,6 +48,10 @@ function encode() {
     else if (type == "hex") {
         target.value = ascii_to_hexa(target.value);
     }
+	else {
+        target.value = Encoder.htmlEncode(target.value);
+	}
+
 
 }
 
@@ -65,6 +69,9 @@ function decode() {
     else if (type == "hex") {
         target.value = hex2a(target.value);
     }
+    else {
+        target.value = Encoder.htmlDecode(target.value);
+	}
 }
 
 
