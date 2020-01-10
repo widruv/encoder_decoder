@@ -1,9 +1,10 @@
 # encoder_decoder
-- Features
-  - url(percent) encoding / decoding
-  - base64 encoding / decoding
-  - html encoding / decoding
-  - hex encoding / decoding
+Features
+===============================
+- url(percent) encoding / decoding
+- base64 encoding / decoding
+- html encoding / decoding
+- hex encoding / decoding
 
 Install
 ===============================
